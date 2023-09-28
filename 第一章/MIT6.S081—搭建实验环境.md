@@ -24,7 +24,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 2、在Microsoft Store中搜索Ununtu，然后下载并安装Ubuntu20.04
 
-https://pic4.zhimg.com/80/v2-80ba6cbfed308ca6a0d20b3bff13b8e3_720w.webp
+![image](https://github.com/Cltcj/MIT6.S081/assets/81791654/70f09a0a-5caf-4728-a96a-f145ea9de381)
 
 3、安装成功之后，进行设置用户名和密码，这就是Ubuntu那一套东西了。这里不多赘述。
 
