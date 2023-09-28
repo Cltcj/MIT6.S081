@@ -13,12 +13,18 @@ Windows搭建子系统步骤：
 
 1、将 Windows 子系统功能添加到当前正在运行的 Windows 操作系统中。具体为：以管理员身份打开 PowerShell 终端或命令提示符窗口，并输入该命令，并重启：
 
+```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-或者，你可以直接打开以下界面，并将`适用于Linux的Windows子系统`打上勾，具体如何打开可以参考：安装 Docker Desktop 时遇到 "WSL 2 installation is incomplete" 的解决方法
+```
+
+或者，你可以直接打开以下界面，并将`适用于Linux的Windows子系统`打上勾，具体如何打开可以参考：[安装 Docker Desktop 时遇到 "WSL 2 installation is incomplete" 的解决方法](https://zhuanlan.zhihu.com/p/652869124)
+
+![image](https://github.com/Cltcj/MIT6.S081/assets/81791654/d68e0bc7-df69-4777-80a3-c7059abc1730)
 
 
 2、在Microsoft Store中搜索Ununtu，然后下载并安装Ubuntu20.04
 
+https://pic4.zhimg.com/80/v2-80ba6cbfed308ca6a0d20b3bff13b8e3_720w.webp
 
 3、安装成功之后，进行设置用户名和密码，这就是Ubuntu那一套东西了。这里不多赘述。
 
@@ -28,7 +34,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 # 四、MIT6.S081实验环境搭建
 
-可以参考官方文档：6.S081 / Fall 2021
+可以参考官方文档：[6.S081 / Fall 2021](https://pdos.csail.mit.edu/6.828/2021/tools.html)
 
 1、在Ubuntu20.04系统的终端中输入以下命令：
 
